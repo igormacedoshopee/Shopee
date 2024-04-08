@@ -1,0 +1,9 @@
+authtoken: 2epbvW7WgSxINh3wNUg2tNpzley_zPqSTDuFEpDu1fuMCxhH
+version: '2'
+tunnels:
+  app1:
+    addr: 5000  # Porta local do seu aplicativo Flask
+    proto: http
+  app2:
+    addr: 8080  # Outra porta local para um segundo aplicativo
+    proto: http
